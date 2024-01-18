@@ -19,11 +19,14 @@ main {
 .wrapper {
     height: 100%;
     aspect-ratio: 1;
+    border-radius: 10px;
     border: 5px solid rgb(96, 96, 255);
 }
 
 .box {
-    border: 2px solid rgb(96, 96, 255);
+    background-color: aliceblue;
+    border: 5px solid rgb(96, 96, 255);
+    cursor: pointer;
 }
 
 .easy {
@@ -39,4 +42,8 @@ main {
 .hard {
     width: calc(100% / 7);
     aspect-ratio: 1;
+}
+
+.click {
+    background-color: rgb(255, 77, 77);;
 }
