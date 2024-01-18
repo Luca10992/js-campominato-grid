@@ -1,0 +1,42 @@
+
+
+.form-select {
+    width: 19%;
+}
+
+.btn {
+    width: 19%;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+.container {
+    height: calc(100vh - 130px);
+}
+
+.wrapper {
+    height: 100%;
+    aspect-ratio: 1;
+    border: 5px solid rgb(96, 96, 255);
+}
+
+.box {
+    border: 2px solid rgb(96, 96, 255);
+}
+
+.easy {
+    width: calc(100% / 10);
+    aspect-ratio: 1;
+}
+
+.medium {
+    width: calc(100% / 9);
+    aspect-ratio: 1;
+}
+
+.hard {
+    width: calc(100% / 7);
+    aspect-ratio: 1;
+}

@@ -14,3 +14,9 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 - con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
 
 ### Svolgimento
+
+- creo delle variabili con i livelli di difficoltà a cui attribuisco il numero di celle di cui deve essere composta la griglia;
+- creo una funzione con ciclo FOR che mi generi una griglia in base al livello selezionato;
+- creo un bottone di generazione della griglia;
+- creo un evento al click del bottone che mi generi la griglia del livello precedentemente selezionata;
+- creo un evento che faccia sì che la cella si colori quando viene cliccata e stampi in console il suo numero di cella;
