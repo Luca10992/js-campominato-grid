@@ -45,5 +45,10 @@ main {
 }
 
 .click {
-    background-color: rgb(255, 77, 77);;
+    cursor: not-allowed;
+    background-color: rgb(92, 255, 77);
+}
+
+.bomb {
+    background-color: rgb(255, 77, 77);
 }
